@@ -12,5 +12,4 @@
 
 - (id)safeValueForKey:(NSString *)key;
 
-- (id)objectForKey:(NSString *)key;
 @end

@@ -104,8 +104,7 @@
     //dict一定要赋值
     NSDictionary *dict = @{@"1":@"a"};
     
-    
-    [dict safeValueForKey:@"name"];
+    [dict objectForKey:@"name"];
     
 }
 

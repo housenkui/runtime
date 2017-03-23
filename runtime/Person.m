@@ -27,18 +27,13 @@ void drink(id self,SEL sel){
     
 }
 
-- (void)drink{
-    
-    NSLog(@"OC的drink方法");
-}
-
-//当C函数和OC的函数同名的时候会添加 OC的函数
 //暂且理解函数名称就是函数的地址
 
 //当一个对象调用未实现的方法，会调用这个方法处理，并且会把对应的方法列表传过来
 //刚好可以用来判断，未实现的方法是不是我们想要动态添加的方法
 +(BOOL)resolveInstanceMethod:(SEL)sel{
     
+    NSLog(@"方法名------%@",NSStringFromSelector(sel));
     if (sel==@selector(drink)) {
         //动态添加drink方法
         //第一个参数:给哪个类添加方法

@@ -13,6 +13,8 @@
 
 //加载分类到内存中的时候使用
 
+
+//这里交换的是 类方法
 +(void)load{
     
     //交换方法
@@ -28,6 +30,7 @@
 }
 //分类中不能调用super,也不能重现系统方法imageNamed:,那会覆盖掉系统的方法。
 //既能加载图片又能打印
+
 +(instancetype)imageWithName:(NSString *)name{
     
     UIImage *image  =[self imageWithName:name];
