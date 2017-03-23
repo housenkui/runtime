@@ -17,6 +17,7 @@
 #import "Status.h"
 #import "NSObject+Model.h"
 
+#import "NSDictionary+SafeValue.h"
 
 @interface ViewController ()
 
@@ -57,8 +58,8 @@
     // 步骤二：交换imageNamed和imageWithName的实现，就能调用imageWithName，间接调用imageWithName的实现。
     
     
-    
     UIImage *image =[UIImage imageNamed:@"hou.png"];
+    
     
     
 #pragma mark---动态的给某个类添加方法
@@ -93,13 +94,20 @@
     
     [NSObject resolveDict:dict];
     
-    
-    
 //    Status *status = [Status modelWithDict:dict];
 
-
+     [self test];
 }
 
+- (void)test{
+    
+    //dict一定要赋值
+    NSDictionary *dict = @{@"1":@"a"};
+    
+    
+    [dict safeValueForKey:@"name"];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

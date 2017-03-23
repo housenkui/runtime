@@ -19,6 +19,7 @@
 		EFC8680A1E83A8F700ADA2E8 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868091E83A8F700ADA2E8 /* NSObject+Log.m */; };
 		EFC8680E1E83B15300ADA2E8 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8680D1E83B15300ADA2E8 /* NSObject+Model.m */; };
 		EFC868111E83B37100ADA2E8 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868101E83B37100ADA2E8 /* Status.m */; };
+		EFC868151E83D5CE00ADA2E8 /* NSDictionary+SafeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868141E83D5CE00ADA2E8 /* NSDictionary+SafeValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		EFC8680D1E83B15300ADA2E8 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
 		EFC8680F1E83B37100ADA2E8 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
 		EFC868101E83B37100ADA2E8 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		EFC868131E83D5CE00ADA2E8 /* NSDictionary+SafeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeValue.h"; sourceTree = "<group>"; };
+		EFC868141E83D5CE00ADA2E8 /* NSDictionary+SafeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeValue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 				EFC8680D1E83B15300ADA2E8 /* NSObject+Model.m */,
 				EFC8680F1E83B37100ADA2E8 /* Status.h */,
 				EFC868101E83B37100ADA2E8 /* Status.m */,
+				EFC868121E83D54800ADA2E8 /* category */,
 			);
 			path = runtime;
 			sourceTree = "<group>";
@@ -107,6 +111,15 @@
 				EFC867E91E83852700ADA2E8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC868121E83D54800ADA2E8 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				EFC868131E83D5CE00ADA2E8 /* NSDictionary+SafeValue.h */,
+				EFC868141E83D5CE00ADA2E8 /* NSDictionary+SafeValue.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +196,7 @@
 				EFC867F01E83852700ADA2E8 /* ViewController.m in Sources */,
 				EFC868041E838AB300ADA2E8 /* UIImage+Image.m in Sources */,
 				EFC8680A1E83A8F700ADA2E8 /* NSObject+Log.m in Sources */,
+				EFC868151E83D5CE00ADA2E8 /* NSDictionary+SafeValue.m in Sources */,
 				EFC867ED1E83852700ADA2E8 /* AppDelegate.m in Sources */,
 				EFC868011E83853900ADA2E8 /* Person.m in Sources */,
 				EFC868071E83A56200ADA2E8 /* NSObject+Property.m in Sources */,

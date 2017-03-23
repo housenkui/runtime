@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (Image)
+
 +(instancetype)imageWithName:(NSString *)name;
+
 @end
+
