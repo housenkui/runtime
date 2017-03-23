@@ -17,6 +17,8 @@
 		EFC868041E838AB300ADA2E8 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868031E838AB300ADA2E8 /* UIImage+Image.m */; };
 		EFC868071E83A56200ADA2E8 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868061E83A56200ADA2E8 /* NSObject+Property.m */; };
 		EFC8680A1E83A8F700ADA2E8 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868091E83A8F700ADA2E8 /* NSObject+Log.m */; };
+		EFC8680E1E83B15300ADA2E8 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8680D1E83B15300ADA2E8 /* NSObject+Model.m */; };
+		EFC868111E83B37100ADA2E8 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868101E83B37100ADA2E8 /* Status.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		EFC868061E83A56200ADA2E8 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		EFC868081E83A8F700ADA2E8 /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
 		EFC868091E83A8F700ADA2E8 /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		EFC8680C1E83B15300ADA2E8 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		EFC8680D1E83B15300ADA2E8 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		EFC8680F1E83B37100ADA2E8 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		EFC868101E83B37100ADA2E8 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 				EFC868061E83A56200ADA2E8 /* NSObject+Property.m */,
 				EFC868081E83A8F700ADA2E8 /* NSObject+Log.h */,
 				EFC868091E83A8F700ADA2E8 /* NSObject+Log.m */,
+				EFC8680C1E83B15300ADA2E8 /* NSObject+Model.h */,
+				EFC8680D1E83B15300ADA2E8 /* NSObject+Model.m */,
+				EFC8680F1E83B37100ADA2E8 /* Status.h */,
+				EFC868101E83B37100ADA2E8 /* Status.m */,
 			);
 			path = runtime;
 			sourceTree = "<group>";
@@ -177,6 +187,8 @@
 				EFC868011E83853900ADA2E8 /* Person.m in Sources */,
 				EFC868071E83A56200ADA2E8 /* NSObject+Property.m in Sources */,
 				EFC867EA1E83852700ADA2E8 /* main.m in Sources */,
+				EFC868111E83B37100ADA2E8 /* Status.m in Sources */,
+				EFC8680E1E83B15300ADA2E8 /* NSObject+Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

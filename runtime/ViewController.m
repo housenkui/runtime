@@ -14,6 +14,10 @@
 #import "NSObject+Property.h"
 #import "NSObject+Log.h"
 
+#import "Status.h"
+#import "NSObject+Model.h"
+
+
 @interface ViewController ()
 
 @end
@@ -88,6 +92,11 @@
                            };
     
     [NSObject resolveDict:dict];
+    
+    
+    
+//    Status *status = [Status modelWithDict:dict];
+
 
 }
 
