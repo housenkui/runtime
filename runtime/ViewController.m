@@ -11,6 +11,8 @@
 #import <objc/message.h>
 
 #import "UIImage+Image.h"
+#import "NSObject+Property.h"
+#import "NSObject+Log.h"
 
 @interface ViewController ()
 
@@ -44,10 +46,6 @@
     objc_msgSend([Person class], sel);
     
     
-    
-    
-    
-    
 #pragma mark---方法交换
     
     // 需求：给imageNamed方法提供功能，每次加载图片就判断下图片是否加载成功。
@@ -59,6 +57,38 @@
     UIImage *image =[UIImage imageNamed:@"hou.png"];
     
     
+#pragma mark---动态的给某个类添加方法
+    
+    [p performSelector:@selector(drink)];
+
+    
+#pragma mark---给分类添加属性
+
+    NSObject *obj  =[[NSObject alloc]init];
+    
+    //调用set
+//    obj.name = @"hsk";
+    
+    [obj setName:@"hsk"];
+    
+    //调用get
+    NSLog(@"%@",obj.name);
+    
+#pragma mark---5.字典转模型
+    
+    NSString *string1     = @"string1";
+    NSArray  *arraySon    = @[@"1",@"2"];
+    NSDictionary *dictSon = @{@"1":@"a"};
+    NSNumber *num         = @1;
+    
+    NSDictionary *dict = @{string1:@"string",
+                           @"array":arraySon,
+                           @"dict":dictSon,
+                           @"num":num
+                           };
+    
+    [NSObject resolveDict:dict];
+
 }
 
 

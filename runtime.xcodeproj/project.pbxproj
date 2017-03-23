@@ -15,6 +15,8 @@
 		EFC867F81E83852700ADA2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC867F61E83852700ADA2E8 /* LaunchScreen.storyboard */; };
 		EFC868011E83853900ADA2E8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868001E83853900ADA2E8 /* Person.m */; };
 		EFC868041E838AB300ADA2E8 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868031E838AB300ADA2E8 /* UIImage+Image.m */; };
+		EFC868071E83A56200ADA2E8 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868061E83A56200ADA2E8 /* NSObject+Property.m */; };
+		EFC8680A1E83A8F700ADA2E8 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868091E83A8F700ADA2E8 /* NSObject+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		EFC868001E83853900ADA2E8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EFC868021E838AB300ADA2E8 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		EFC868031E838AB300ADA2E8 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		EFC868051E83A56200ADA2E8 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		EFC868061E83A56200ADA2E8 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		EFC868081E83A8F700ADA2E8 /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		EFC868091E83A8F700ADA2E8 /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 				EFC868001E83853900ADA2E8 /* Person.m */,
 				EFC868021E838AB300ADA2E8 /* UIImage+Image.h */,
 				EFC868031E838AB300ADA2E8 /* UIImage+Image.m */,
+				EFC868051E83A56200ADA2E8 /* NSObject+Property.h */,
+				EFC868061E83A56200ADA2E8 /* NSObject+Property.m */,
+				EFC868081E83A8F700ADA2E8 /* NSObject+Log.h */,
+				EFC868091E83A8F700ADA2E8 /* NSObject+Log.m */,
 			);
 			path = runtime;
 			sourceTree = "<group>";
@@ -162,8 +172,10 @@
 			files = (
 				EFC867F01E83852700ADA2E8 /* ViewController.m in Sources */,
 				EFC868041E838AB300ADA2E8 /* UIImage+Image.m in Sources */,
+				EFC8680A1E83A8F700ADA2E8 /* NSObject+Log.m in Sources */,
 				EFC867ED1E83852700ADA2E8 /* AppDelegate.m in Sources */,
 				EFC868011E83853900ADA2E8 /* Person.m in Sources */,
+				EFC868071E83A56200ADA2E8 /* NSObject+Property.m in Sources */,
 				EFC867EA1E83852700ADA2E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
