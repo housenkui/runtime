@@ -13,6 +13,8 @@
 		EFC867F31E83852700ADA2E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC867F11E83852700ADA2E8 /* Main.storyboard */; };
 		EFC867F51E83852700ADA2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC867F41E83852700ADA2E8 /* Assets.xcassets */; };
 		EFC867F81E83852700ADA2E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC867F61E83852700ADA2E8 /* LaunchScreen.storyboard */; };
+		EFC868011E83853900ADA2E8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868001E83853900ADA2E8 /* Person.m */; };
+		EFC868041E838AB300ADA2E8 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC868031E838AB300ADA2E8 /* UIImage+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EFC867F41E83852700ADA2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC867F71E83852700ADA2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC867F91E83852700ADA2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC867FF1E83853900ADA2E8 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EFC868001E83853900ADA2E8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EFC868021E838AB300ADA2E8 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		EFC868031E838AB300ADA2E8 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				EFC867F61E83852700ADA2E8 /* LaunchScreen.storyboard */,
 				EFC867F91E83852700ADA2E8 /* Info.plist */,
 				EFC867E81E83852700ADA2E8 /* Supporting Files */,
+				EFC867FF1E83853900ADA2E8 /* Person.h */,
+				EFC868001E83853900ADA2E8 /* Person.m */,
+				EFC868021E838AB300ADA2E8 /* UIImage+Image.h */,
+				EFC868031E838AB300ADA2E8 /* UIImage+Image.m */,
 			);
 			path = runtime;
 			sourceTree = "<group>";
@@ -151,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC867F01E83852700ADA2E8 /* ViewController.m in Sources */,
+				EFC868041E838AB300ADA2E8 /* UIImage+Image.m in Sources */,
 				EFC867ED1E83852700ADA2E8 /* AppDelegate.m in Sources */,
+				EFC868011E83853900ADA2E8 /* Person.m in Sources */,
 				EFC867EA1E83852700ADA2E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YItong.runtime;
@@ -283,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = runtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YItong.runtime;
